@@ -1,8 +1,8 @@
-##Aim
+## Aim
 
 To design a C program to calculate the sum, average, and percentage of marks scored by a student in five subjects.
 
-##Algorithm
+## Algorithm
 
 Start
 
@@ -22,7 +22,7 @@ Display total, average, and percentage.
 
 Stop
 
-##Formula
+## Formula
 
 Total = M1 + M2 + M3 + M4 + M5
 
