@@ -12,12 +12,21 @@ The aim is to use the variables, data types, input and output statements, arithm
 ## Algorithm
 
 START
+
 Read the distance of the trip
+
 Read the mileage of the vehicle
+
 Read the fuel price per litre
+
 Calculate the fuel required
+
 Fuel Required= Distance / Mileage
+
 Calculate the total fuel cost
+
 Total Cost= Fuel Required × Fuel Price
+
 Display the fuel required and total fuel cost
+
 STOP
