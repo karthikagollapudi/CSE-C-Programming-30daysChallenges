@@ -1,4 +1,4 @@
-##CHALLENGE 02 - TRIPCALC
+## CHALLENGE 02 - TRIPCALC
 ## To Find
 Calculate the Fuel Required and Total Fuel Cost for a Road Trip.
 
