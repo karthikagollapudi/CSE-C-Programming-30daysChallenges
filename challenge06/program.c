@@ -1,21 +1,21 @@
  #include <stdio.h>
 int main()
 {
-int n, i, a[12];
-int sum = 0, min, max;
+ int n, i, a[12];
+  int sum = 0, min, max;
 int second, found = 0;
- int peaks = 0, current = 1, longest = 1;
+   int peaks = 0, current = 1, longest = 1;
  int k, shifts, temp, j;
- int r, d, count = 0;
+int r, d, count = 0;
  float average;
- printf("Enter no of readings(5 to 12):");
+  printf("Enter no of readings(5 to 12):");
 scanf("%d", &n);
 
 while (n < 5 || n > 12)
  {
  printf("Invalid \n");
   printf("Enter number of readings(5 to12):");
- scanf("%d", &n);
+scanf("%d", &n);
 }
 for (i = 0; i < n; i++)
  {  printf("Enter reading %d (0 to 1000):", i + 1);
@@ -43,8 +43,8 @@ if (a[i] > max)
  }
  average = (float)sum / n;
  printf("Sum = %d\n", sum);
-  printf("Average = %.2f\n", average);
- printf("Minimum = %d\n", min);
+     printf("Average = %.2f\n", average);
+    printf("Minimum = %d\n", min);
   printf("Maximum = %d\n", max);
 
  for (i = 0; i < n; i++)
@@ -59,9 +59,9 @@ if (a[i] > max)
  }
 }
   if (found == 1)
-   printf("Second largest distinct value = %d\n", second);
+  printf("Second largest distinct value = %d\n", second);
   else
-  printf("No second largest distinct value.\n");
+printf("No second largest distinct value.\n");
 
   for (i = 1; i < n - 1; i++)
   {
@@ -73,15 +73,15 @@ printf("Local peaks = %d\n", peaks);
  {
   if (a[i] > a[i - 1])
   current++;
-  else
+ else
     current = 1;      
-  if (current > longest)
+ if (current > longest)
    longest = current;
   }
 
  printf("Longest increasing run = %d\n", longest);
-  printf("Enter K for rotation: ");
-  scanf("%d", &k);
+   printf("Enter K for rotation: ");
+ scanf("%d", &k);
   shifts = k % n;
 
  if (shifts < 0)
@@ -100,8 +100,8 @@ printf("Local peaks = %d\n", peaks);
   printf("Rotated readings: ");
   for (i = 0; i < n; i++)
     printf("%d ", a[i]);
-
- printf("\n");
+ 
+  printf("\n");
  printf("Enter last two numeric digits of registration number: ");
   scanf("%d", &r);
 
